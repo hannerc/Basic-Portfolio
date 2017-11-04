@@ -6,6 +6,12 @@ body {
 
 	background-image: url('assets/images/dust_scratches.png');
 }
+
+p{
+
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 /*Creates a header bar all the way across the top of the page*/
 		.StickyheaderBar{
 			background-color: #ffffff; 

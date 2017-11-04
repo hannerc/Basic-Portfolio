@@ -108,6 +108,13 @@
 		padding:0px;
 		}
 
+		.sidebar{
+		width:20px; 
+		background-color: #ffffff; 
+		height:100%; 
+		position:fixed; 
+		}
+
 		footer{
 			background-color: #666666;
 			border-radius: 0px;
@@ -137,3 +144,42 @@
 			background-color: #4aaaa5;
 
 		}
+
+/*This is styling for the form elements on the Contact page*/
+		.container {
+ 		   border-radius: 5px;
+ 		   padding: 20px;
+		}
+
+/*This is for the labels above the email form*/
+		label{
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		color:#777777;
+		font-size: 110%;
+
+		}
+
+		input[type=submit] {
+    		background-color: #4aaaa5;
+    		font-size:1em;
+    		color: #ffffff;
+    		padding: 10px 25px;
+    		border: none;
+    		cursor: pointer;
+		}
+
+		input[type=submit]:hover {
+    		color: #777777;
+		}
+
+		input[type=text], select, textarea {
+    		width: 100%;
+    		padding: 12px;
+    		border: 1px solid #ccc;
+   			box-sizing: border-box;
+   			margin-top: 6px;
+    		margin-bottom: 16px;
+    		resize: vertical;
+
+		}
+

@@ -7,6 +7,7 @@
 			width:100%; 
 			height:75px; 
 			border-bottom-width:2px;  
+			border-color:#dddddd;
     		border-bottom-style:groove;
 			left: 0;
 			position: fixed;
@@ -27,7 +28,6 @@
 /*This sets the style of my Name at the top left*/
 		.nameHead{	
 			background-color: #4aaaa5;
-			border-radius: 0px;
 			float: left; 
 			width: 30%; 
 			height: 100%;
@@ -84,7 +84,7 @@
 			float: left; 
 			width: 590px; 
 			padding:0px 30px 30px 30px;
-			border-color: ;
+			border-color:#dddddd;
 			border-width:1px;  
     		border-style:ridge;
 		}
@@ -97,12 +97,12 @@
 			width: 230px; 
 			border-width:1px;  
     		border-style:ridge;
+    		border-color:#dddddd;
     		text-align:center;
 		}
 
 		.connectImg{
 		height:60px;
-		
 		display:inline-block;
 		margin: 5px 5px;
 		padding:0px;
@@ -117,7 +117,6 @@
 
 		footer{
 			background-color: #666666;
-			border-radius: 0px;
 			height: 75px;
 			width: 100%;
 			clear: both;
@@ -125,7 +124,6 @@
    			left: 0;
    			bottom: 0;
    			width: 100%;
-			
 			    
 		}
 		.footText{
@@ -146,10 +144,6 @@
 		}
 
 /*This is styling for the form elements on the Contact page*/
-		.container {
- 		   border-radius: 5px;
- 		   padding: 20px;
-		}
 
 /*This is for the labels above the email form*/
 		label{
@@ -175,7 +169,7 @@
 		input[type=text], select, textarea {
     		width: 100%;
     		padding: 12px;
-    		border: 1px solid #ccc;
+    		border: 1px solid #dddddd;
    			box-sizing: border-box;
    			margin-top: 6px;
     		margin-bottom: 16px;
@@ -183,3 +177,45 @@
 
 		}
 
+
+.portgrid{
+}
+
+.port_image_L{
+	margin: 10px 0px 30px 0px;
+	float:right;
+	clear:right;
+	height: 200px; 
+	width:275px;
+	
+}
+
+.port_image_R{
+	height:200px; 
+	width:275px;
+	float:left;	
+	margin: 10px 0px 30px 0px;
+	clear:left;
+
+}
+
+.portTextBar{
+	background-color: #4aaaa5; 
+	height:20px; 
+	margin-top: 120px; 
+	padding:20px; 
+	color:white; 
+	text-align: center; 
+	font-size: 150%;
+}
+
+.portTextBar:hover{
+		background-color:teal;
+		}
+
+/*ClearFix for Portfolio page*/
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
